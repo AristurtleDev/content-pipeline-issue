@@ -51,4 +51,6 @@ namespace ContentPipelineExtension
 
 13. Repeate steps 7, 8, and 9 to open the Content.mgcb file, add the dll reference, then add the dummy.txt file.  **Only this time, the Importer and Process are not found**
 
+![Importer and Processor Missing](./invalid-importer-processor.png)
+
 At this point, if you remove the **FakeClass.cs** and rebuild, the do the steps for the mgcb-editor, the Importer and Processor will show back up.  So it would appear that adding any class that is not directly the Importer and/or Processor to the extension project prevents it from loading properly in the mgcb-editor.  By Importer and Processor I mean class with the `[ContentImporter]` and `[ContentProcessor]` attributes and inheritences. 
