@@ -1,5 +1,10 @@
 # Content Pipeline Extension Issue
 
+## My Setup
+* MacBook Pro (macOS Mojave version 10.14.6)
+* Visual Studio Code
+* MonoGame 3.8.0.1641
+
 ## The Problem
 When creating a Content Pipeline extension, it seems that any class file added to the project that is not directly the Importer or Processor, the MGCB Editor is unable to load the Importer and/or Processor from the dll.  
 
