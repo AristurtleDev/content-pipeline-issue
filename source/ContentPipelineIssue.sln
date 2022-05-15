@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentPipelineIssue", "ContentPipelineIssue\ContentPipelineIssue.csproj", "{932B036F-4655-4A87-84C1-BA73D83440F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentPipelineExtension", "ContentPipelineExtension\ContentPipelineExtension.csproj", "{0832637A-23D4-4F5E-8D42-F12FB5B8DD18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{932B036F-4655-4A87-84C1-BA73D83440F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932B036F-4655-4A87-84C1-BA73D83440F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932B036F-4655-4A87-84C1-BA73D83440F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932B036F-4655-4A87-84C1-BA73D83440F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0832637A-23D4-4F5E-8D42-F12FB5B8DD18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0832637A-23D4-4F5E-8D42-F12FB5B8DD18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0832637A-23D4-4F5E-8D42-F12FB5B8DD18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0832637A-23D4-4F5E-8D42-F12FB5B8DD18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
